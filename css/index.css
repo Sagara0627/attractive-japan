@@ -1,0 +1,26 @@
+body, p, a, h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.inner {
+    width: 90%;
+    margin: 0 auto;
+}
+
+header {
+    height: 50vh;
+    background-size: cover;
+    background-image: url('../img/top_main_0322_1.jpg');
+    background-position: center center;
+    padding: 1rem 0;
+}
+
+.icon-wrapper {
+    width: 2.5rem;
+    height: 2.5rem;
+}
+
+.icon-wrapper i {
+    font-size: 2rem;
+}
