@@ -24,3 +24,41 @@ header {
 .icon-wrapper i {
     font-size: 2rem;
 }
+
+.title {
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+.area-search-contents {
+    display: flex;
+    align-items: center;
+    width: 30%;
+    margin-top: 2rem;
+    border: 1px solid #dee2e6;
+}
+
+.area-search-img-wrapper {
+    width: 6rem;
+    height: 6rem;
+    overflow: hidden;
+}
+
+.area-search-img-wrapper img {
+    height: 100%;
+}
+
+.area-search-content {
+    font-weight: bold;
+    padding-left: 1rem;
+    margin: 0;
+}
+
+.region-categories {
+    width: 45%;
+    margin-top: 1rem;
+}
+
+.region-contents a {
+    margin-right: 1rem;
+}
