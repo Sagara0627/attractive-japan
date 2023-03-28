@@ -5,8 +5,8 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="./css/index.css">
-    <!-- BootstrapのCSS読み込み -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <!-- Bootstrap5.0のCSS読み込み -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Font Awesomeの読み込み -->
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.3.0/css/all.min.css" rel="stylesheet">
     <title>Attractive Japan Tours</title>
@@ -226,6 +226,47 @@
                     <a href="">ジャンル一覧へ</a>
                 </div>
             </section>
+            <section id="special-feature">
+                <h3 class="title">特集</h3>
+                <div id="features" class="carousel slide carousel-dark" data-bs-ride="carousel">
+                    <div class="carousel-indicators">
+                        <button type="button" data-bs-target="#features" data-bs-slide-to="0" class="carousel-indicator active" aria-current="true" aria-label="Slide 1"></button>
+                        <button type="button" data-bs-target="#features" data-bs-slide-to="1" class="carousel-indicator" aria-label="Slide 2"></button>
+                        <button type="button" data-bs-target="#features" data-bs-slide-to="2" class="carousel-indicator" aria-label="Slide 3"></button>
+                    </div>
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <img src="./img/sample_image.png" alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>スライド1枚目</h5>
+                                <p>1枚目の特集</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/sample_image.png" alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>スライド2枚目</h5>
+                                <p>2枚目の特集</p>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <img src="./img/sample_image.png" alt="">
+                            <div class="carousel-caption d-none d-md-block">
+                                <h5>スライド3枚目</h5>
+                                <p>3枚目の特集</p>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev" type="button" data-bs-target="#features" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next" type="button" data-bs-target="#features" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
         </div>
         <section id="announcement" class="w-25">
             <h3 class="title">お知らせ</h3>
@@ -234,9 +275,7 @@
 
     <!-- jQuery読み込み -->
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <!-- Propper.js読み込み -->
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <!-- BootstrapのJavascript読み込み -->
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <!-- Bootstrap5.0のJavascript読み込み -->
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
 </body>
 </html>
