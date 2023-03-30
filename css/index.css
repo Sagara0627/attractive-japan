@@ -60,45 +60,52 @@ header {
 }
 
 .region-contents a {
+    text-decoration: none;
     margin-right: 1rem;
 }
 
-.genre-search-content-wrapper {
+.genre-search-content-wrapper,
+.scene-search-content-wrapper {
     position: relative;
     width: 10rem;
     height: 10rem;
     overflow: hidden;
 }
 
-.genre-search-content-wrapper img {
+.genre-search-content-wrapper img,
+.scene-search-content-wrapper img {
     height: 100%;
 }
 
-.genre-search-content {
+.genre-search-content,
+.scene-search-content {
     width: 100%;
     position: absolute;
     bottom: 0;
 }
 
-.genre-search-content .genre-name {
+.genre-search-content .genre-name,
+.scene-search-content .scene-name {
     margin: 0;
     font-weight: bold;
     font-size: 1.2rem;
 }
 
-.genre-search-content .search-result-count {
+.genre-search-content .search-result-count,
+.scene-search-content .search-result-count {
     margin: 0;
     font-weight: bold;
     font-size: 0.8rem;
 }
 
-.genres {
+.genres, .scenes {
     margin-top: 3rem;
 }
 
-.genre {
+.genre, .scene {
     color: #595960;
     border: 1px solid #e1e1e1;
+    text-decoration: none;
     padding: 0.3em 1em;
     margin: 0 1rem 1rem 0;
 }
