@@ -1,0 +1,32 @@
+footer {
+    .footer-links {
+        background-color: #faf8f5;
+        span {
+            display: inline-block;
+            color: $borderColor;
+            margin: 0 0.5rem;
+        }
+    }
+
+    .langs {
+        // 最初のspan要素のみ適用
+        span:first-child {
+            color: $searchConditionColor;
+        }
+
+        // 最初のspan要素以外に適用
+        span:not(:first-child) {
+            display: inline-block;
+            color: $borderColor;
+            margin: 0 0.5rem;
+        }
+    }
+
+    .icon-wrapper {
+        @include site-icon(1.5rem, 1.5rem, 1rem);
+    }
+
+    .copyright {
+        color: $searchConditionColor;
+    }
+}
