@@ -1,16 +1,34 @@
 // @mixin
+// カルーセルのボタンに適用するCSS
 @mixin carousel-control-css () {
     top: 50% !important;
     bottom: auto !important;
     width: 3rem !important;
     height: 3rem !important;
     border-radius: 50%;
-    border: 1px solid $borderColor !important;
+    border: 1px solid $carouselBorderColor !important;
     background-color: white !important;
 }
 
+// カルーセルの矢印アイコンに適用するCSS
 @mixin carousel-control-icon-css () {
     display: inline-block;
     vertical-align: middle;
     width: 100%;
+}
+
+// 画像の中に表示するキャプションに適用するCSS
+// Bootstrapで生成されたものではなく、自作のキャプションのみに適用
+@mixin custom-caption ($fontSize) {
+    margin: 0;
+    font-weight: bold;
+    font-size: $fontSize;
+}
+
+// 条件一覧に対して共通に適用しているCSS
+@mixin search-conditions () {
+    color: $searchConditionColor;
+    border: 1px solid $searchConditionBorderColor;
+    padding: 0.3em 1em;
+    margin: 0 1rem 1rem 0;
 }

@@ -61,7 +61,6 @@ a {
 .carousel-caption {
   color: #000;
 }
-
 .carousel-caption h5 {
   font-weight: bold;
 }
@@ -96,7 +95,6 @@ header {
   height: 6rem;
   overflow: hidden;
 }
-
 .area-search-img-wrapper img {
   height: 100%;
 }
@@ -202,7 +200,6 @@ header {
   height: 10rem;
   overflow: hidden;
 }
-
 .detail-condition-search-content-wrapper img {
   height: 100%;
 }
@@ -212,13 +209,11 @@ header {
   position: absolute;
   bottom: 0;
 }
-
 .detail-condition-search-content .detail-condition-name {
   margin: 0;
   font-weight: bold;
   font-size: 1.2rem;
 }
-
 .detail-condition-search-content .search-result-count {
   margin: 0;
   font-weight: bold;
@@ -228,8 +223,7 @@ header {
 .detail-conditions {
   margin-top: 3rem;
 }
-
-.detail-condition {
+.detail-conditions a {
   color: #595960;
   border: 1px solid #e1e1e1;
   padding: 0.3em 1em;
@@ -240,7 +234,10 @@ header {
   width: 18%;
   border: 1px solid #e1e1e1;
 }
+.article p {
+  height: 10rem;
+}
 
-.article-img-wrapper, .article p {
+.article-img-wrapper {
   height: 10rem;
 }/*# sourceMappingURL=main.css.map */
