@@ -3,6 +3,10 @@ body, p, a, h1, h2, h3, h4, h5, div, span {
   padding: 0;
 }
 
+a {
+  text-decoration: none !important;
+}
+
 .inner {
   width: 90%;
   margin: 0 auto;
@@ -109,7 +113,6 @@ header {
 }
 
 .region-contents a {
-  text-decoration: none;
   margin-right: 1rem;
 }
 
@@ -149,7 +152,6 @@ header {
 .genre {
   color: #595960;
   border: 1px solid #e1e1e1;
-  text-decoration: none;
   padding: 0.3em 1em;
   margin: 0 1rem 1rem 0;
 }
@@ -190,7 +192,6 @@ header {
 .scene {
   color: #595960;
   border: 1px solid #e1e1e1;
-  text-decoration: none;
   padding: 0.3em 1em;
   margin: 0 1rem 1rem 0;
 }
@@ -231,7 +232,6 @@ header {
 .detail-condition {
   color: #595960;
   border: 1px solid #e1e1e1;
-  text-decoration: none;
   padding: 0.3em 1em;
   margin: 0 1rem 1rem 0;
 }
