@@ -3,38 +3,30 @@
     width: 10rem;
     height: 10rem;
     overflow: hidden;
-}
 
-.detail-condition-search-content-wrapper img {
-    height: 100%;
+    img {
+        height: 100%;
+    }
 }
 
 .detail-condition-search-content {
     width: 100%;
     position: absolute;
     bottom: 0;
-}
 
-.detail-condition-search-content .detail-condition-name {
-    margin: 0;
-    font-weight: bold;
-    font-size: 1.2rem;
-}
+    .detail-condition-name {
+        @include custom-caption(1.2rem);
+    }
 
-.detail-condition-search-content .search-result-count {
-    margin: 0;
-    font-weight: bold;
-    font-size: 0.8rem;
+    .search-result-count {
+        @include custom-caption(0.8rem);
+    }
 }
 
 .detail-conditions {
     margin-top: 3rem;
-}
 
-.detail-condition {
-    color: #595960;
-    border: 1px solid #e1e1e1;
-    text-decoration: none;
-    padding: 0.3em 1em;
-    margin: 0 1rem 1rem 0;
+    a {
+        @include search-conditions;
+    }
 }
