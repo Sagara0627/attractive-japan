@@ -4,7 +4,10 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./css/index.css">
+    <!-- ress.cssの読み込み -->
+    <link rel='stylesheet' href='https://unpkg.com/ress/dist/ress.min.css'>
+    <!-- sassの読み込み -->
+    <link rel="stylesheet" href="./css/main.css">
     <!-- Bootstrap5.0のCSS読み込み -->
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
     <!-- Font Awesomeの読み込み -->
@@ -257,11 +260,11 @@
                             </div>
                         </div>
                     </div>
-                    <button class="carousel-control-prev" type="button" data-bs-target="#features" data-bs-slide="prev">
+                    <button class="carousel-control-prev d-block shadow-sm" type="button" data-bs-target="#features" data-bs-slide="prev">
                         <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Previous</span>
                     </button>
-                    <button class="carousel-control-next" type="button" data-bs-target="#features" data-bs-slide="next">
+                    <button class="carousel-control-next d-block shadow-sm" type="button" data-bs-target="#features" data-bs-slide="next">
                         <span class="carousel-control-next-icon" aria-hidden="true"></span>
                         <span class="visually-hidden">Next</span>
                     </button>
@@ -400,6 +403,89 @@
                     <a href="" class="detail-condition">お祝い・サプライズ可</a>
                 </div>
             </section>
+            <section id="article">
+                <h3 class="title">新着記事</h3>
+                <div id="articles" class="carousel slide carousel-dark" data-bs-touch="false" data-bs-interval="false">
+                    <div class="carousel-inner">
+                        <div class="carousel-item active">
+                            <div class="article-wrapper d-flex justify-content-between">
+                                <div class="article">
+                                    <div class="article-img-wrapper">
+                                        <img src="./img/sample_image.png" alt="" class="h-100">
+                                    </div>
+                                    <p class="mb-0 p-3">大宮駅周辺のおすすめランチ30選! 老舗からオシャレカフェまで</p>
+                                </div>
+                                <div class="article">
+                                    <div class="article-img-wrapper">
+                                        <img src="./img/sample_image.png" alt="" class="h-100">
+                                    </div>
+                                    <p class="mb-0 p-3">さいたま新都心駅周辺のおすすめランチ20選!</p>
+                                </div>
+                                <div class="article">
+                                    <div class="article-img-wrapper">
+                                        <img src="./img/sample_image.png" alt="" class="h-100">
+                                    </div>
+                                    <p class="mb-0 p-3">浦和駅周辺のオシャレカフェ15選!</p>
+                                </div>
+                                <div class="article">
+                                    <div class="article-img-wrapper">
+                                        <img src="./img/sample_image.png" alt="" class="h-100">
+                                    </div>
+                                    <p class="mb-0 p-3">一度は食べてみたい! 横浜中華街のおすすめ中華グルメ20選</p>
+                                </div>
+                                <div class="article">
+                                    <div class="article-img-wrapper">
+                                        <img src="./img/sample_image.png" alt="" class="h-100">
+                                    </div>
+                                    <p class="mb-0 p-3">美味しくて安い小田原ランチ! 通いたくなるおすすめ店20選</p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="carousel-item">
+                            <div class="article-wrapper d-flex justify-content-between">
+                                <div class="article">
+                                    <div class="article-img-wrapper">
+                                        <img src="./img/sample_image.png" alt="" class="h-100">
+                                    </div>
+                                    <p class="mb-0 p-3">羽田空港で食事をするならここ! ターミナル別に30選</p>
+                                </div>
+                                <div class="article">
+                                    <div class="article-img-wrapper">
+                                        <img src="./img/sample_image.png" alt="" class="h-100">
+                                    </div>
+                                    <p class="mb-0 p-3">安くて美味しい! 京都駅周辺で人気のおすすめランチ処12選</p>
+                                </div>
+                                <div class="article">
+                                    <div class="article-img-wrapper">
+                                        <img src="./img/sample_image.png" alt="" class="h-100">
+                                    </div>
+                                    <p class="mb-0 p-3">福岡でもつ鍋を食べるならここ! おすすめ15選</p>
+                                </div>
+                                <div class="article">
+                                    <div class="article-img-wrapper">
+                                        <img src="./img/sample_image.png" alt="" class="h-100">
+                                    </div>
+                                    <p class="mb-0 p-3">キレイな夜景が見える! ディナーにおすすめのお店20選</p>
+                                </div>
+                                <div class="article">
+                                    <div class="article-img-wrapper">
+                                        <img src="./img/sample_image.png" alt="" class="h-100">
+                                    </div>
+                                    <p class="mb-0 p-3">安くて新鮮な海鮮が食べられる! おすすめランチ10選</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="carousel-control-prev d-block d-none shadow-sm" type="button" data-bs-target="#articles" data-bs-slide="prev">
+                        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Previous</span>
+                    </button>
+                    <button class="carousel-control-next d-block shadow-sm" type="button" data-bs-target="#articles" data-bs-slide="next">
+                        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                        <span class="visually-hidden">Next</span>
+                    </button>
+                </div>
+            </section>
         </div>
         <section id="announcement" class="w-25">
             <h3 class="title">お知らせ</h3>
@@ -410,5 +496,7 @@
     <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
     <!-- Bootstrap5.0のJavascript読み込み -->
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+    <!-- JSファイルの読み込み -->
+    <script src="./js/index.js"></script>
 </body>
 </html>
