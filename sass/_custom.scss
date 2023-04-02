@@ -1,0 +1,49 @@
+body, p, a, h1, h2, h3, h4, h5, div, span {
+    margin: 0;
+    padding: 0;
+}
+
+.inner {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title {
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+.carousel-control-prev {
+    left: -3% !important;
+    @include carousel-control-css;
+
+    span {
+        @include carousel-control-icon-css;
+    }
+}
+
+.carousel-control-next {
+    right: -3% !important;
+    @include carousel-control-css;
+
+    span {
+        @include carousel-control-icon-css;
+    }
+}
+
+.carousel-inner img {
+    display: block;
+    width: 100%;
+}
+
+.carousel-item {
+    height: 20rem;
+}
+
+.carousel-caption {
+    color: #000;
+}
+
+.carousel-caption h5 {
+    font-weight: bold;
+}
