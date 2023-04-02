@@ -1,0 +1,44 @@
+.genre-search-content-wrapper,
+.scene-search-content-wrapper,
+.detail-condition-search-content-wrapper {
+    position: relative;
+    width: 10rem;
+    height: 10rem;
+    overflow: hidden;
+}
+
+.genre-search-content-wrapper img,
+.scene-search-content-wrapper img,
+.detail-condition-search-content-wrapper img {
+    height: 100%;
+}
+
+.genre-search-content {
+    width: 100%;
+    position: absolute;
+    bottom: 0;
+}
+
+.genre-search-content .genre-name {
+    margin: 0;
+    font-weight: bold;
+    font-size: 1.2rem;
+}
+
+.genre-search-content .search-result-count {
+    margin: 0;
+    font-weight: bold;
+    font-size: 0.8rem;
+}
+
+.genres {
+    margin-top: 3rem;
+}
+
+.genre {
+    color: #595960;
+    border: 1px solid #e1e1e1;
+    text-decoration: none;
+    padding: 0.3em 1em;
+    margin: 0 1rem 1rem 0;
+}

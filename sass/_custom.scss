@@ -1,0 +1,47 @@
+body, p, a, h1, h2, h3, h4, h5 {
+    margin: 0;
+    padding: 0;
+}
+
+.inner {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.title {
+    margin-top: 3rem;
+    font-weight: bold;
+}
+
+.carousel-control-prev {
+    left: -2% !important;
+    top: 50% !important;
+    bottom: auto !important;
+    width: auto !important;
+    display: block;
+}
+
+.carousel-control-next {
+    right: -2% !important;
+    top: 50% !important;
+    bottom: auto !important;
+    width: auto !important;
+    display: block;
+}
+
+.carousel-inner img {
+    display: block;
+    width: 100%;
+}
+
+.carousel-item {
+    height: 20rem;
+}
+
+.carousel-caption {
+    color: #000;
+}
+
+.carousel-caption h5 {
+    font-weight: bold;
+}
