@@ -1,0 +1,30 @@
+#announcement {
+    padding-left: 2rem;
+
+    .announcement-content {
+        font-weight: bold;
+
+        .announcement-tag {
+            font-weight: normal;
+            background-color: $tagColor;
+            color: white;
+            margin-right: 1rem;
+        }
+    }
+
+    .project-img-wrapper {
+        width: 70px;
+        height: 70px;
+        overflow: hidden;
+        margin-right: 1rem;
+
+        img {
+            height: 100%;
+        }
+    }
+    .description {
+        p {
+            color: $searchConditionColor;
+        }
+    }
+}

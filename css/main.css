@@ -234,6 +234,31 @@ header .icon-wrapper i {
   height: 10rem;
 }
 
+#announcement {
+  padding-left: 2rem;
+}
+#announcement .announcement-content {
+  font-weight: bold;
+}
+#announcement .announcement-content .announcement-tag {
+  font-weight: normal;
+  background-color: #bcb08a;
+  color: white;
+  margin-right: 1rem;
+}
+#announcement .project-img-wrapper {
+  width: 70px;
+  height: 70px;
+  overflow: hidden;
+  margin-right: 1rem;
+}
+#announcement .project-img-wrapper img {
+  height: 100%;
+}
+#announcement .description p {
+  color: #595960;
+}
+
 #information {
   border: 1px solid #e1e1e1;
 }
