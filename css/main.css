@@ -233,4 +233,18 @@ header {
 
 .article-img-wrapper {
   height: 10rem;
+}
+
+#information {
+  border: 1px solid #e1e1e1;
+}
+#information .information-content {
+  width: 30%;
+}
+#information .information-content h5 {
+  font-weight: bold;
+  margin-bottom: 2rem;
+}
+#information .information-content .tpoint-img-wrapper {
+  margin-right: 1rem;
 }/*# sourceMappingURL=main.css.map */
