@@ -13,27 +13,20 @@
     width: 100%;
     position: absolute;
     bottom: 0;
-}
 
-.genre-search-content .genre-name {
-    margin: 0;
-    font-weight: bold;
-    font-size: 1.2rem;
-}
+    .genre-name {
+        @include custom-caption(1.2rem);
+    }
 
-.genre-search-content .search-result-count {
-    margin: 0;
-    font-weight: bold;
-    font-size: 0.8rem;
+    .search-result-count {
+        @include custom-caption(0.8rem);
+    }
 }
 
 .genres {
     margin-top: 3rem;
-}
 
-.genre {
-    color: #595960;
-    border: 1px solid #e1e1e1;
-    padding: 0.3em 1em;
-    margin: 0 1rem 1rem 0;
+    a {
+        @include search-conditions;
+    }
 }
