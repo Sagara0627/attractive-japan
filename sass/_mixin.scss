@@ -1,0 +1,16 @@
+// @mixin
+@mixin carousel-control-css () {
+    top: 50% !important;
+    bottom: auto !important;
+    width: 3rem !important;
+    height: 3rem !important;
+    border-radius: 50%;
+    border: 1px solid $borderColor !important;
+    background-color: white !important;
+}
+
+@mixin carousel-control-icon-css () {
+    display: inline-block;
+    vertical-align: middle;
+    width: 100%;
+}

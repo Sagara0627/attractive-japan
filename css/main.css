@@ -1,4 +1,4 @@
-body, p, a, h1, h2, h3, h4, h5 {
+body, p, a, h1, h2, h3, h4, h5, div, span {
   margin: 0;
   padding: 0;
 }
@@ -14,19 +14,35 @@ body, p, a, h1, h2, h3, h4, h5 {
 }
 
 .carousel-control-prev {
-  left: -2% !important;
+  left: -3% !important;
   top: 50% !important;
   bottom: auto !important;
-  width: auto !important;
-  display: block;
+  width: 3rem !important;
+  height: 3rem !important;
+  border-radius: 50%;
+  border: 1px solid #dee2e6 !important;
+  background-color: white !important;
+}
+.carousel-control-prev span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
 }
 
 .carousel-control-next {
-  right: -2% !important;
+  right: -3% !important;
   top: 50% !important;
   bottom: auto !important;
-  width: auto !important;
-  display: block;
+  width: 3rem !important;
+  height: 3rem !important;
+  border-radius: 50%;
+  border: 1px solid #dee2e6 !important;
+  background-color: white !important;
+}
+.carousel-control-next span {
+  display: inline-block;
+  vertical-align: middle;
+  width: 100%;
 }
 
 .carousel-inner img {
