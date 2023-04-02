@@ -4,13 +4,8 @@ header {
     background-image: url('../img/top_main_0322_1.jpg');
     background-position: center center;
     padding: 1rem 0;
-}
 
-.icon-wrapper {
-    width: 2.5rem;
-    height: 2.5rem;
-
-    i {
-        font-size: 2rem;
+    .icon-wrapper {
+        @include site-icon(2.5rem, 2.5rem, 2rem);
     }
 }

@@ -1,5 +1,15 @@
 /* --- 共通処理 ---*/
 
+// サイト名とサイトのアイコンに適用するCSS
+@mixin site-icon ($width, $height, $fontSize) {
+    width: $width;
+    height: $height;
+
+    i {
+        font-size: $fontSize;
+    }
+}
+
 // カルーセルのボタンに適用するCSS
 @mixin carousel-control-css () {
     top: 50% !important;

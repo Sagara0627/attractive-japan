@@ -74,12 +74,11 @@ header {
   background-position: center center;
   padding: 1rem 0;
 }
-
-.icon-wrapper {
+header .icon-wrapper {
   width: 2.5rem;
   height: 2.5rem;
 }
-.icon-wrapper i {
+header .icon-wrapper i {
   font-size: 2rem;
 }
 
@@ -247,4 +246,31 @@ header {
 }
 #information .information-content .tpoint-img-wrapper {
   margin-right: 1rem;
+}
+
+footer .footer-links {
+  background-color: #faf8f5;
+}
+footer .footer-links span {
+  display: inline-block;
+  color: #e1e1e1;
+  margin: 0 0.5rem;
+}
+footer .langs span:first-child {
+  color: #595960;
+}
+footer .langs span:not(:first-child) {
+  display: inline-block;
+  color: #e1e1e1;
+  margin: 0 0.5rem;
+}
+footer .icon-wrapper {
+  width: 1.5rem;
+  height: 1.5rem;
+}
+footer .icon-wrapper i {
+  font-size: 1rem;
+}
+footer .copyright {
+  color: #595960;
 }/*# sourceMappingURL=main.css.map */
